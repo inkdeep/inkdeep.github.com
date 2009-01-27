@@ -5,7 +5,8 @@ body {
 	padding:0 0 30px 0; margin:0; 
 	border:0;
 	text-align:center;
-	background:#dddddd;
+/*	background:#dddddd;*/
+	background:#bbc4ce url('../img/gun.gif') top left no-repeat;
 }
 
 
