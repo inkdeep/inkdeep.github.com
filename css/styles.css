@@ -1,0 +1,32 @@
+html, body { padding: 0; margin: 0; text-align:center; }
+html>body { font-size: 16px; /*IE can’t read this*/ }
+body {
+	font: normal 100%/1.125em Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding:0 0 30px 0; margin:0; 
+	border:0;
+	text-align:center;
+	background:#dddddd;
+}
+
+
+#content {
+	display:block; 
+	margin:0 auto;
+	width:900px; 
+	padding:0;
+}
+#footer {
+	display:block;
+	clear:both;
+	padding:0; margin:0;
+	position:relative;
+}
+
+#header {
+	position:relative;
+	display:block;
+	float:left; clear:both;
+	padding:0; margin:0;
+}
+
+input, select, th, td {font-size:90%}
