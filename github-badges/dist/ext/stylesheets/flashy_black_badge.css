@@ -1,17 +1,19 @@
 /*#github-badge {padding:56px 0 0 0;background:url(/images/github-badge-top.png) 0 0 no-repeat;}*/
 
+#github-badge {width:200px;text-align:left; margin:0;color:white;width:200px;padding-top:56px;font: 11px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;}
 #github-badge a {color: #4183c4; /* blue */background-color: black;text-decoration: none;}
 #github-badge a:hover {color: #4183c4; /* blue */text-decoration: underline;}
 #github-badge a:visited {color: #4183c4; /* blue */}
-#github-badge div.header {background:#000;text-align:right;}
-#github-badge .header span {font: 11px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;padding:0 .2em;}
-#github-badge .footer {font: 90% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;padding:0;text-align:center; margin:0;}
+#github-badge div.header {background:#000;text-align:right;padding:0;font: 12px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;}
+#github-badge .header span {font: 11px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;padding:0 .5em 0 .2em;}
+#github-badge .header span.title {font: 11px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;padding:0;}
+#github-badge .footer {height:26px;font:85% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;padding:0;text-align:center; margin:0;}
 #github-badge .repos ul#repo_listing {padding: .2em;margin: 0px;}
 #github-badge .repos li {list-style: none;margin-bottom: 0.25em;padding:.1em;font-size:100%;background: transparent none repeat scroll 0%;overflow:hidden;}
 #github-badge .repos img {padding-right: .2em;vertical-align: middle;}
 #github-badge .repos .public {border: 1px solid rgb(50,50,50);background-color: rgb(20,20,20);}
 #github-badge .repos .public a {background-color: rgb(20,20,20);}
-#github-badge .repos .public .description {margin-left: 18px;margin-bottom: .4em;font-size:95%;}
+#github-badge .repos .public .description {margin-left: 18px;margin-bottom: .4em;font-size:90%;}
 #github-badge .clickable {cursor:	pointer; cursor:	hand;}
 #github-badge .body {background:#000;padding: .2em;}
 
