@@ -1,0 +1,3 @@
+[submodule "github-badges"]
+	path = github-badges
+	url = git@github.com:inkdeep/github-badges.git
