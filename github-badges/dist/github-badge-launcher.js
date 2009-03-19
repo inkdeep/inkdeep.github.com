@@ -11,6 +11,19 @@ var GithubBadge = {
   Version: '1.2.3'
 };
 
+/*  GitHub Badge, version 1.2.3
+ *  (c) 2008 Dr Nic Williams
+ *
+ *  GitHub Badge is freely distributable under
+ *  the terms of an MIT-style license.
+ *  For details, see the web site: http://github.com/drnic/github-badges/tree/master
+ *
+ *--------------------------------------------------------------------------*/
+
+var GithubBadge = {
+  Version: '1.2.3'
+};
+
 var GitHubBadge = GitHubBadge || {};
 
 GitHubBadge.Launcher = new function() {
@@ -95,5 +108,7 @@ GitHubBadge.Launcher.requestContent = function( url, callback ) {
     document.write('<script ' + onLoadStr + 'type="text/javascript" src="'+url+'"></script>');
   }
 }
+
+GitHubBadge.Launcher.init();
 
 GitHubBadge.Launcher.init();
