@@ -33,7 +33,7 @@ GitHubBadge.Launcher = new function() {
 			'<style type="text/css" media="screen">'+
 			'	 #github-badge {width:200px; margin:0;padding:0 0 12px 0;color:white;background:url(' + this.path + 'ext/images/github-badge-bottom.png) bottom left no-repeat;font: 11px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;}'+
 			'  #github-badge div.header {text-align:right;padding:56px 0 0 0;background:url(' + this.path + 'ext/images/github-badge-top.png) 0 0 no-repeat;}font: 12px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;'+
-			'</style>';
+			'</style>');
 	}
 
   function basePath() {
